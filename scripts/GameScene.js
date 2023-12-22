@@ -25,7 +25,7 @@ class GameScene extends Phaser.Scene {
         })
 
         const tileset = map.addTilesetImage('tileset-grassland-grass', 'tiles')
-        map.createStaticLayer('ground', tileset)
+        map.createLayer('ground', tileset)
         // const belowLayer = map.createStaticLayer('below player', tileset, 0, 0)
 //        const worldLayer = map.createStaticLayer('world', tileset, 0, 0)
 
