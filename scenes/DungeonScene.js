@@ -1,4 +1,5 @@
 class DungeonScene extends Phaser.Scene {
+    
 	constructor() {
 		super('dungeon')
 	} // end constructor
