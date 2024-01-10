@@ -3,8 +3,8 @@ window.addEventListener('load', () => {
 
 let config = {
 	type: Phaser.AUTO,
-	width: 400,
-	height: 250,
+	width: 800,
+	height: 400,
 	physics: {
 		default: 'arcade',
 		arcade: {
@@ -12,7 +12,10 @@ let config = {
 			gravity: { y: 0 }
 		}
 	},
-	scene: [Preloader,DungeonScene]
+	scene: [Preloader,DungeonScene],
+	scale: {
+		zoom: .75
+	}
 } //end config
 
 const game = new Phaser.Game(config)

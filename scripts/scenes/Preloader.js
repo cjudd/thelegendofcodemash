@@ -8,6 +8,7 @@ class Preloader extends Phaser.Scene {
         this.load.tilemapTiledJSON('dungeon', '../../assets/tiles/dungeon-01.json')
 
         this.load.atlas('gearhead', '../../assets/sprites/gearhead.png', '../../assets/sprites/gearhead.json')
+        this.load.atlas('kali', '../../assets/sprites/kali.png', '../../assets/sprites/kali.json')
     }
 
     create() {
