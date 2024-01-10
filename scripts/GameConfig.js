@@ -4,10 +4,11 @@ window.addEventListener('load', () => {
 let config = {
 	type: Phaser.AUTO,
 	width: 800,
-	height: 600,
+	height: 450,
 	physics: {
 		default: 'arcade',
 		arcade: {
+			// debug: true
 			gravity: { y: 200 }
 		}
 	},
