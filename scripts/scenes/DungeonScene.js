@@ -12,7 +12,7 @@ class DungeonScene extends Phaser.Scene {
     create() {
         this.add.image(400, 300, 'sky')
 
-        const logo = this.physics.add.image(400, 100, 'logo')
+        const logo = this.physics.add.image(200, 50, 'logo')
 
         logo.setVelocity(100, 200)
         logo.setBounce(1, 1)

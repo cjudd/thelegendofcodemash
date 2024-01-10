@@ -3,8 +3,8 @@ window.addEventListener('load', () => {
 
 let config = {
 	type: Phaser.AUTO,
-	width: 800,
-	height: 450,
+	width: 400,
+	height: 250,
 	physics: {
 		default: 'arcade',
 		arcade: {
