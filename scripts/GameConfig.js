@@ -8,11 +8,11 @@ let config = {
 	physics: {
 		default: 'arcade',
 		arcade: {
-			// debug: true
-			gravity: { y: 200 }
+			debug: true,
+			gravity: { y: 0 }
 		}
 	},
-	scene: [DungeonScene]
+	scene: [Preloader,DungeonScene]
 } //end config
 
 const game = new Phaser.Game(config)
