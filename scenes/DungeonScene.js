@@ -17,12 +17,10 @@ class DungeonScene extends Phaser.Scene {
         logo.setVelocity(100, 200)
         logo.setBounce(1, 1)
         logo.setCollideWorldBounds(true)
-
-        emitter.startFollow(logo)
     } //end create
 
     update(time, delta) {
-
+        
     } //end update
         
 }
