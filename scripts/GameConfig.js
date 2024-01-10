@@ -12,7 +12,10 @@ let config = {
 			gravity: { y: 200 }
 		}
 	},
-	scene: [DungeonScene]
+	scene: [DungeonScene],
+	scale: {
+		zoom: .75
+	}
 } //end config
 
 const game = new Phaser.Game(config)
